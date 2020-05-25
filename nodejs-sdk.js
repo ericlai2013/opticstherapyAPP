@@ -40,7 +40,7 @@ app.get('/dataPort', function (req, res) {
     //res.body = req.query;
 
     //res.send(req.query.msg);
-    res.send({ name: eric });
+    res.send({ code: 200 });
 });
 
 /*
