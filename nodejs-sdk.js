@@ -61,7 +61,7 @@ app.post('/dataPort', function (req, res) {
         // 不建议试用 base64 的编码的结果最后有两个“=”的值作为 EncodingAESKey
 
         // 将在平台设置的 EncodingAESKey 加上‘=’ 进行 base64 解码，以下代码的结果为 AESKey = MTIzNDU2NzgxMjM0NTY3ODEyMzQ1Njc4
-        var AESKey = new Buffer('TVRJek5EVTJOemd4TWpNME5UWTNPREV5TXpRMU5qYzQ=', 'base64').toString();
+        var AESKey = new Buffer('PdZT/kTsqO6ExZwlR8mevAUYLGMEL8+giHBMcHua7iI=', 'base64').toString();
 
         console.log("AESKey:", AESKey);
 
