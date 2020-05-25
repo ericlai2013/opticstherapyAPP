@@ -39,7 +39,8 @@ app.get('/dataPort', function (req, res) {
     console.log(req.query);
     //res.body = req.query;
 
-    res.send(req.query.msg);
+    //res.send(req.query.msg);
+    res.send({ name: eric });
 });
 
 /*
