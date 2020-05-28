@@ -1,1 +1,1 @@
-web: node nodejs-sdk.js
+web: node index.js
